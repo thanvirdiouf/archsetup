@@ -21,7 +21,7 @@ pause 'Press [Enter] key to continue...'
 pacman -S pacman-contrib
 rankmirrors -n 10 mirrorlist.bak > /etc/pacman.d/mirrorlist
 nano /etc/pacman.conf
-pacman -S grub efibootmgr dosfstools mtools i3-wm i3-gapps dmenu lightdm lightdm-gtk-greeter
+pacman -S grub efibootmgr dosfstools mtools i3-wm i3-gapps dmenu lightdm lightdm-gtk-greeter zsh lsd neovim kitty
 pause 'Press [Enter] key to continue...'
 nano /etc/default/grub
 pacman -S os-prober
